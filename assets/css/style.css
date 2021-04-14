@@ -57,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Impact", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -65,7 +65,7 @@ a {
     -webkit-transition: all 0.4s;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    font-family: "Impact", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -73,7 +73,7 @@ img {
 }
 
 .represent{
-    width: 100%
+    width: 300px;
     margin: -50px 0 50px 0;
 }
 
@@ -126,15 +126,15 @@ fieldset {
 }
 
 .section-title h2:before {
-    margin-left: -80px;
+    margin-left: -25px;
     content: " ";
-    background-image: url();
+    background-image: url(../images/skate100px.png);
     position: absolute;
     left: 50%;
-    top: 0px;
-    height:100px;
-    width: 1000px;
-    background-size: 100px 70px; background-repeat: no-repeat;
+    top: 40px;
+    height:11px;
+    width: 50px;
+    background-size: 50px 11px; background-repeat: no-repeat;
 }
 
 /*.section-title h2:after {
@@ -157,7 +157,7 @@ fieldset {
 a.read-more {
     margin-top: 20px;
     display: inline-block;
-    color: #f00;
+    color: #fff;
     background: #333;
     padding: 10px 25px;
     border: 1px solid #333;
@@ -298,7 +298,7 @@ a.white-read-more:hover {
 .welcome-image-area {
     position: relative;
     height: 100%;
-    background: url("../images/bg/sktbanner1.jpg");
+    background: url("../images/bg/bg.jpg");
     background-size: cover;
     z-index: 1;
 }
@@ -330,7 +330,7 @@ a.white-read-more:hover {
 }
 
 .header-text h2 {
-    color: #ff000078;
+    color: #fff;
     font-size: 80px;
     letter-spacing: 5px;
     margin: 0;
@@ -557,7 +557,7 @@ a.slide-btn:hover {
     .welcome-video-area {
        position: relative;
         height: 100%;
-        background: url("../images/bg/sktbanner1.jpg");
+        background: url("../images/bg/bg.jpg");
         background-size: cover;
         z-index: 1;
 
@@ -790,7 +790,7 @@ a.slide-btn:hover {
 
 .call-to-action-area {
     padding: 100px 0px;
-    background: url("../images/bg/sktbanner1.jpg");
+    background: url("../images/bg/testi-bg.jpg");
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -955,7 +955,7 @@ ul.work li {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
-    color: #f00;
+    color: #ccc;
     border: none;
     cursor: pointer;
     font-size: 12px;
@@ -1004,7 +1004,7 @@ ul.work li.active {
 */
 
 .testimonial-area {
-    background: url("../images/nos/sktp1.jpg");
+    background: url("../images/bg/testi-bg2.jpg");
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -1142,7 +1142,7 @@ ul.work li.active {
 
 .our-news-letter {
     padding: 100px 0px;
-    background: url("../images/nos/banner1.jpg");
+    background: url("../images/bg/testi-bg.jpg");
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -1378,7 +1378,7 @@ ul.work li.active {
 .footer-text h6:before {
     margin-left: -25px;
     content: " ";
-    background-image: url(...png);
+    background-image: url(../images/skate100px.png);
     position: absolute;
     left: 50%;
     top: 40px;
